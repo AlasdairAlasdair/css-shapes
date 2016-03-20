@@ -1,0 +1,36 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.chap{
+  shape-outside: url(../chap2.png);
+  margin-top: 20ch;
+  float: left;
+  width: 122px;
+}
+
+.left-column{
+    float:right;
+    max-width: 40%;
+}
+
+.right-column{
+    float:left;
+    max-width: 40%;
+}
+
+.container {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+  max-width: 60%;
+}
+
+.justify{
+    text-align: justify;
+}
