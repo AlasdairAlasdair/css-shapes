@@ -1,49 +1,25 @@
-*{
-  font-family: 'Roboto', sans-serif;
-}
-
-p {
-    
-    text-align: justify;
-}
-
-.container {
-  display: flex;
-  flex: 1 0 auto;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.content {
-  flex: 1;
-  max-width: 60%;
+.zigzag{
+    width: 40%;
+    height: 60ch;
 }
 
 .left-zig {
     -webkit-shape-outside: polygon(100% 100%, 0 0, 0 100%);
     float: left;
-    width: 40%;
-    height: 60ch;
 }
 
 .right-zig {
     -webkit-shape-outside: polygon(100% 100%, 0 0, 100% 0);
     float: right;
-    width: 40%;
-    height: 60ch;
 }
 
 
 .left-zag {
     -webkit-shape-outside: polygon(100% 0, 0 0, 0 100%);
     float: left;
-    width: 40%;
-    height: 60ch;
 }
 
 .right-zag {
     -webkit-shape-outside: polygon(100% 0, 100% 100%, 0 100%);
     float: right;
-    width: 40%;
-    height: 60ch;
 }

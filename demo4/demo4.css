@@ -1,0 +1,16 @@
+.chap{
+  shape-outside: url(../chap2.png);
+  margin-top: 20ch;
+  float: left;
+  width: 122px;
+}
+
+.left-column{
+    float:right;
+    max-width: 40%;
+}
+
+.right-column{
+    float:left;
+    max-width: 40%;
+}
